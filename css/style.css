@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-	width:80%;
+	width:100%;
 	margin:auto;
 	overflow:hidden;
 }
@@ -29,7 +29,7 @@ body{
 
 #main{
 	float:left;
-	width:70%;
+	width:100%;
 	padding:0 30px;
 	box-sizing: border-box;
 }
@@ -81,12 +81,14 @@ li {
 
 body {background-color:#2d2d2d;}
 
-  #timedate {
-	font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-	text-align:left;
-	width: 50%;
-	margin: 40px auto;
-	color:#fff;
-	border-left: 3px solid #ed1f24;
-	padding: 20px;
-  }
+.clock {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(33, 174, 230);
+    font-size: 20px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+}
